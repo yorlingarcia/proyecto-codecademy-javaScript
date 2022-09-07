@@ -82,11 +82,11 @@ const message = () => {
   switch (num) {
     case 0:
       let frase = professional_motivation();
-      console.log(`${frase[0]}\n${frase[1]}`);
+      console.log(`${frase[0]}\nAutor: ${frase[1]}`);
       break;
     case 1:
       let frase2 = short_motivation();
-      console.log(`${frase2[0]}\n${frase2[1]}`);
+      console.log(`${frase2[0]}\nAutor: ${frase2[1]}`);
       break;
   }
 };
