@@ -3,7 +3,7 @@ const random = (num) => Math.floor(Math.random() * num);
 
 // Frases de motivacion personal
 const personal_motivation = () => {
-  let num = Math.floor * (Math.random() * 6);
+  let num = random(6);
   switch (num) {
     case 0:
       return "El único modo de hacer un gran trabajo es amar lo que haces - Steve Jobs";
@@ -20,6 +20,23 @@ const personal_motivation = () => {
   }
 };
 
+// frases motivadoras cortas
+const short_motivation = () => {
+  let num = random(5);
+  switch (num) {
+    case 0:
+      return "Cuando pierdas, no pierdas la lección - Dalai Lama ";
+    case 1:
+      return "La vida es una aventura, atrévete - Teresa de Calcuta";
+    case 2:
+      return "Siempre parece imposible... hasta que se hace - Nelson Mandela";
+    case 3:
+      return "No dejes que el miedo se interponga en tu camino - Babe Ruth";
+    case 4:
+      return "El mejor momento del día es ahora - Pierre Bonnard";
+  }
+};
+
 // generador de mensajes
 const message = (number) => {
   let num = random(number);
@@ -30,43 +47,26 @@ const message = (number) => {
 };
 
 /*
-Frases de motivación profesional
-
-
-
-
-El trabajo duro hace que desaparezcan las arrugas de la mente y el espíritu - Helena Rubinstein 
-Cuando algo es lo suficientemente importante, lo haces incluso si las probabilidades de que salga bien no te acompañan - Elon Musk
-
-
-Cuéntamelo y me olvidaré. enséñamelo y lo recordaré. involúcrame y lo aprenderé - Benjamin Franklin 
-La lógica te llevará de la a a la z. la imaginación te llevará a cualquier lugar - Albert Einstein
-A veces la adversidad es lo que necesitas encarar para ser exitoso - Zig Ziglar 
-Para tener éxito tu deseo de alcanzarlo debe ser mayor que tu miedo al fracaso - Bill Cosby
-Ejecuta tus conocimientos con la maestría del que sigue aprendiendo - Jonathan García-Allen
-Si buscas un poco más de motivación laboral, no te pierdas nuestra lista completa de frases motivadoras para el trabajo.
 
 Frases motivadoras cortas
-Estas frases de motivación cortas no son más que palabras alentadoras resumidas en frases cortas, que puedes leer al despertarte para comenzar con buen pie tu día. Aquí te dejamos 15 frases inspiradoras:
 
 
-‍
-
-Cuando pierdas, no pierdas la lección - Dalai Lama 
 No busques los errores, busca un remedio - Henry Ford
-La vida es una aventura, atrévete - Teresa de Calcuta
+
 Tu actitud, no tu aptitud, determinará tu altitud - Zig Ziglar
 Tienes que hacer las cosas que crees que no puedes hacer - Eleanor Roosevelt
 Si te caíste ayer, levántate hoy - H. G. Wells
-Siempre parece imposible... hasta que se hace - Nelson Mandela
+
 Si no pierdes, no puedes disfrutar de las victorias - Rafael Nadal
-No dejes que el miedo se interponga en tu camino - Babe Ruth
+
 Haz de cada día tu obra maestra John Wooden 
 No cuentes los días, haz que los días cuenten - Muhammad Ali
-El mejor momento del día es ahora - Pierre Bonnard
+
 Si la oportunidad no llama, construye una puerta - Milton Berle
 Deja que cada hombre ejerza el arte que domina - Aristófanes 
 El valor de una idea radica en su uso - Thomas Edison 
+
+
 Frases motivacionales de superación personal
 No estás solo, no eres el único “raro” trabajando en su desarrollo personal, tampoco estás loco por querer hacerlo. Esperamos que estas 15 frases de superación personal te sean de gran ayuda:
 
