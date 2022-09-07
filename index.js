@@ -37,11 +37,29 @@ const short_motivation = () => {
   }
 };
 
+// figuras tipo ASCII
+const figures = () => {
+  let num = random(3);
+  switch (num) {
+    case 0:
+      console.log(" (\\_/)");
+      console.log("(='.'=)");
+      console.log('(")_(")');
+      break;
+    case 1:
+      console.log("(^._.^)");
+      break;
+    case 2:
+      console.log("<(o.o )>");
+      break;
+  }
+};
 // generador de mensajes
 const message = () => {
   let num = random(2);
   switch (num) {
     case 0:
+      figures();
       console.log(professional_motivation());
       break;
     case 1:
